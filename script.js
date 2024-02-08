@@ -1,6 +1,6 @@
 // Click handler for search button
 const captureSearchValue = () => {
-
+    return document.getElementById("search-bar").value;
 };
 
 // Filter books based on search input
